@@ -1,5 +1,9 @@
 # PPPPdev Application Documentation
 
+# Personality and Public Policy Profile tool
+
+The goal is to create a dynamic, self-updating database of public individuals with their Big-Five + Dark Three Personality Profile and Public Policy views called "PPPProfile". 
+ 
 ## Overview
 
 **Application:** PPPPdev  
@@ -10,8 +14,7 @@ Checkpoint: July 2026
 
 GitHub Repo:
 
-https://github.com/RudyJH/v1/tree/3952810b8f3065e150b7fcef0340d0f0dd81549d/app
-
+{ TDB}
 
 ## Database Configuration
 
