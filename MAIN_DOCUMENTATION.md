@@ -10,11 +10,14 @@ The goal is to create a dynamic, self-updating database of public individuals wi
 **File:** `app/main.py`
 
 This is the main entry point for the FastAPI application. It sets up the application, including the database connection, CORS middleware, and API routes.
-Checkpoint: July 2026
-
+Checkpoint: July 2026 - working startup and basic openning web page.
+2026 August: Fresh repo, continuiong dev
 GitHub Repo:
+  git@github.com:RudyJH/P4toolDev2.git
 
-{ TDB}
+## Design considerations:
+- Following recomended file structure as shown in https://fastapi.tiangolo.com/tutorial/bigger-applications/#apirouter
+
 
 ## Database Configuration
 
@@ -42,13 +45,14 @@ $ source .venv/bin/activate
  - see .agent.md for further venv instructions
 
 ## Requirements
-
-- Data Base connections using  SQLAlchemy : Debug in process 
-  - 0: No DB, testing and development mode
-  - 1: SQLite database  
-  - 2: PostgreSQL (server must be running and ready)
 - FastAPI
 - other Dependencies - use a venv based on requimements.txt
+
+- Data Base connections using  SQLAlchemy
+see main.py DB_INIT for  Dev and Debug mode
+  - DB_INIT = 0: No DB, testing and startup development mode
+  - DB_INIT = 1: SQLite database  
+  - DB_INIT = 2: PostgreSQL (server must be running and ready)
 
 ###  Database Setup
 - Check that PostgreSQL is running
