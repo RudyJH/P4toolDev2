@@ -60,8 +60,7 @@ see main.py DB_INIT for  Dev and Debug mode
 - DB initialization in process (need first time init logic)
 
 ###  Run the Application in the <root>/v1 directory
-```bash
-uvicorn app.main:app --reload
+```bash : uvicorn app.main:app --reload
 ```
 
 ### 4. Access API Documentation

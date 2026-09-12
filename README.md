@@ -1,1 +1,2 @@
-Please see MAN_DOCUMENTATION.md for now
+Please see MAIN_DOCUMENTATION.md and
+           .agent.md for details.
