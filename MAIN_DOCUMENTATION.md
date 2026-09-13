@@ -11,9 +11,11 @@ The goal is to create a dynamic, self-updating database of public individuals wi
 
 This is the main entry point for the FastAPI application. It sets up the application, including the database connection, CORS middleware, and API routes.
 Checkpoint: July 2026 - working startup and basic openning web page.
-2026 August: Fresh repo, continuiong dev
+2026 August: Fresh repo, continuing dev on Ver 1, basic Web App, no DB and splash page to show app is running.
+V2 will bring to life basic DB and CRUD operations for users, and a splash page to show the app is running.
 GitHub Repo:
   git@github.com:RudyJH/P4toolDev2.git
+
 
 ## Design considerations:
 - Following recomended file structure as shown in https://fastapi.tiangolo.com/tutorial/bigger-applications/#apirouter
